@@ -1,9 +1,12 @@
 <?php
 namespace ImagicalGamer\Status;
+
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\TextFormat as Color;
+
 class Main extends PluginBase implements Listener{
   public function onEnable(){
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
