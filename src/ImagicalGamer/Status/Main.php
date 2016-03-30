@@ -16,3 +16,5 @@ class Main extends PluginBase implements Listener{
 		$full = $this->getServer()->getMaxPlayers();
 		$sender->sendMessage(Color::GREEN . "Status" . "\n Current TPS:" . Color::LIGHT_PURPLE .  $tps . Color::GREEN . "\n Current load:" . Color::AQUA . $load . Color::GREEN . "\nAmount of Online Players:" . Color::RED .  $online);
 }
+}
+}
