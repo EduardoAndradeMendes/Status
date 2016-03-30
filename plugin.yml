@@ -5,4 +5,8 @@ author: ImagicalGamer
 version: "1.0"
 api: [1.0.0, 2.0.0, 3.0.0]
 main: ImagicalGamer\Status\Main
+commands:
+ status:
+  usage: /tatus
+  description: Shows server status!
 ...
