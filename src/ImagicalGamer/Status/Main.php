@@ -19,13 +19,5 @@ class Main extends PluginBase implements Listener{
 		$full = $this->getServer()->getMaxPlayers();
 		$sender->sendMessage(Color::GREEN . "Status" . "\nCurrent TPS: " . Color::LIGHT_PURPLE .  $tps . Color::GREEN . "\nCurrent load: " . Color::AQUA . $load . Color::GREEN . "\nAmount of Online Players: " . Color::RED .  $online);
 }
-   if($cmd->getName() == "info"){
-   	$p = implode(" ", $args);
-   	if($p instanceof Player){
-   		$cid = $p->getClientId();
-          	$ip = $p->getAddress();
-   		$sender->sendMessage(Color::GREEN . "Name " . Color::LIGHT_PURPLE . $p . Color::GREEN . "\nID: " . Color::LIGHT_PURPLE . $cid . Color::GREEN . "\nIP: " . Color::LIGHT_PURPLE . $ip);
-   	}
-}
 }
 }
