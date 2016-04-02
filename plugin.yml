@@ -1,6 +1,6 @@
 
 ---
-name: Status
+name: GetInfo
 author: ImagicalGamer
 version: "1.0"
 api: [1.0.0, 2.0.0, 3.0.0]
@@ -9,4 +9,7 @@ commands:
  status:
   usage: /status
   description: Shows server status!
+ info:
+  usage: /info <player>
+  description: Get a players info!
 ...
