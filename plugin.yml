@@ -7,9 +7,7 @@ api: [1.0.0, 2.0.0, 3.0.0]
 main: ImagicalGamer\Status\Main
 commands:
  status:
-  usage: /status
   description: Shows server status!
  info:
-  usage: /info <player>
   description: Get a players info!
 ...
